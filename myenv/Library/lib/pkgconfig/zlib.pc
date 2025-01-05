@@ -1,0 +1,13 @@
+prefix=D:/AI_Projects/myenv/Library
+exec_prefix=D:/AI_Projects/myenv/Library
+libdir=D:/AI_Projects/myenv/Library/lib
+sharedlibdir=D:/AI_Projects/myenv/Library/lib
+includedir=D:/AI_Projects/myenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
